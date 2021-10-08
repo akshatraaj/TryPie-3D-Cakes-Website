@@ -67,12 +67,10 @@
         <a href="../index.html"><--</a>
       </button>
     </div>
-          <p>&#10071;Touch or move cursor to look around</p>
-        </div>
+          </div>
       </div>
-      <a-scene id="main-scene" vr-mode-ui="enabled: false"
-      arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;debugUIEnabled: false;"
-      gesture-detector>
+      <a-scene gesture-detector>
+          <a-sky color="#9CCC65"></a-sky>
         <a-assets>
           <a-assets-item id="cake" src="../assets/3DModels/strawberry_cake/scene.gltf"></a-assets-item>
         </a-assets>
