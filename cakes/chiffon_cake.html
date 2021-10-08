@@ -67,12 +67,10 @@
         <a href="../index.html"><--</a>
       </button>
     </div>
-          <p>&#10071;Touch or move cursor to look around</p>
-        </div>
+          </div>
       </div>
-      <a-scene id="main-scene" vr-mode-ui="enabled: false"
-      arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;debugUIEnabled: false;"
-      gesture-detector>
+      <a-scene gesture-detector>
+          <a-sky color="#9CCC65"></a-sky>
         <a-assets>
           <a-assets-item id="cake-obj" src="../assets/3DModels/chiffon_cake/13500_Wedding_Cake_v1_L1.obj"></a-assets-item>
           <a-assets-item id="cake-mtl" src="../assets/3DModels/chiffon_cake/13500_Wedding_Cake_v1_L1.mtl"></a-assets-item>
